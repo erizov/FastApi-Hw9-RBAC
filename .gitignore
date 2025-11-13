@@ -1,0 +1,94 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+project/.venv/
+.venv/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+project/base/db.sqlite
+
+# Logs
+*.log
+project/app/log/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# FastAPI
+*.pyc
+
+# Node modules (frontend)
+node_modules/
+front/node_modules/
+front/dist/
+
+# Office files
+*.docx
+*.pptx
+*.xlsx
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# Alembic
+project/alembic/__pycache__/
+project/alembic/versions/__pycache__/
+
+# FAISS index
+project/base/index/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# pytest
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+
+# Jupyter
+.ipynb_checkpoints/
+
